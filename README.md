@@ -2,6 +2,7 @@
 
 This repository contains the core codebase for the obstacle detection module developed for Team Torpedo’s autonomous vehicle project. The system uses a YOLO-based detection pipeline to identify and track obstacles in real time, enabling safer navigation during testing and deployment.
 
-## Team
+# Contributions
 
-Built by Team Torpedo
+Built by **Team Torpedo**
+- [Arun Vasanth Selwyn Sudhaker](https://github.com/Nuraxx)
