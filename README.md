@@ -5,4 +5,5 @@ This repository contains the core codebase for the obstacle detection module dev
 # Contributions
 
 Built by **Team Torpedo**
+- [Adithya Dhananjayan Purupuruthan](https://github.com/Adithya1996bil)
 - [Arun Vasanth Selwyn Sudhaker](https://github.com/Nuraxx)
