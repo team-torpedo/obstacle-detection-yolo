@@ -8,7 +8,7 @@ from typing import List, Dict, Any, Optional
 class ObstacleDetector:
     def __init__(
         self,
-        model_path: str = 'yolov8n.pt',
+        model_path: str = 'yolov11m.pt',
         confidence_threshold: float = 0.5,
         max_history_length: int = 30,
         focal_length: float = 500,
