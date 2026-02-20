@@ -1,5 +1,5 @@
 {
-  "model_path": "yolov8n.pt",
+  "model_path": "yolo11m.pt",
   "confidence_threshold": 0.5,
   "video_source": 0,
   "show_display": true,

@@ -1,0 +1,15 @@
+model:
+  path: "yolo11m.pt"
+  confidence_threshold: 0.5
+  input_size: 640
+
+video:
+  source: 0
+  show_display: true
+  save_output: false
+  output_path: "output.avi"
+
+tracker:
+  max_history_length: 30
+  focal_length: 500
+  real_height: 1.7

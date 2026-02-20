@@ -8,18 +8,16 @@ from typing import List, Dict, Any, Optional
 class ObstacleDetector:
     def __init__(
         self,
-        model_path: str = 'yolov8n.pt',
-        confidence_threshold: float = 0.5,
-        max_history_length: int = 30,
-        focal_length: float = 500,
-        real_height: float = 1.7,
+        model_config: Dict[str, Any],
+        tracker_config: Dict[str, Any],
     ):
-        self.model = YOLO(model_path)
-        self.confidence_threshold = confidence_threshold
+        self.model = YOLO(model_config.get('path', 'yolo11m.pt'))
+        self.confidence_threshold = model_config.get('confidence_threshold', 0.5)
+        
         self.tracking_history = defaultdict(list)
-        self.max_history_length = max_history_length
-        self.focal_length = focal_length
-        self.real_height = real_height
+        self.max_history_length = tracker_config.get('max_history_length', 30)
+        self.focal_length = tracker_config.get('focal_length', 500)
+        self.real_height = tracker_config.get('real_height', 1.7)
 
     def detect_obstacles(self, frame: np.ndarray):
         results = self.model(frame, conf=self.confidence_threshold)
