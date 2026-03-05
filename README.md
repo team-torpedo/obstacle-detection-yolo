@@ -12,7 +12,7 @@ This repository contains the core codebase for the obstacle detection module dev
   </picture>
   <br />
   <p>
-    <a href="https://github.com/Adithya1996bil">Adithya Dhananjayan Purupuruthan</a> | <a href="https://github.com/Nuraxx">Arun Vasanth Selwyn Sudhaker</a> | <a href="https://github.com/Ravish2807">Ravishanmugam K</a>
+    <a href="https://github.com/Adithya1996bil">Adithya Dhananjayan Purupuruthan</a> | <a href="https://github.com/Nuraxx">Arun Vasanth Selwyn Sudhaker</a> | <a href="https://github.com/Ravish2807">Ravishanmugam K</a> | <a href="https://github.com/B-Sheikh">Abhishek Bharathi</a>
   </p>
 </div>
 
